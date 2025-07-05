@@ -1,18 +1,10 @@
-import Head from 'next/head';
-import LandoConsole from '../components/LandoConsole';
+import React from 'react';
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Lando - IAI-IPS Quantum Cognition Chat</title>
-      </Head>
-      <main className="min-h-screen bg-gray-900 text-white flex items-center justify-center p-4">
-        <div className="w-full max-w-2xl">
-          <h1 className="text-2xl font-bold mb-4 text-center">Lando - IAI-IPS Quantum Cognition Chat</h1>
-          <LandoConsole />
-        </div>
-      </main>
-    </>
+    <main style={{ display: 'grid', placeItems: 'center', height: '100vh' }}>
+      <h1>Lando IAI-IPS Console is Live 🚀</h1>
+      <p>TypeScript configured. Ready for IQCL expansion.</p>
+    </main>
   );
 }
